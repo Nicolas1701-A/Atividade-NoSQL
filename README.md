@@ -14,27 +14,29 @@ Este projeto demonstra um sistema simples em Python utilizando MongoDB Atlas com
 
 ## 📦 Como executar o projeto
 
-### 1. Clone o repositório
+### Clone o repositório
 
 ```bash
 git clone https://github.com/SEU-USUARIO/projeto_nosql.git
 cd projeto_nosql
 
-2. Criar ambiente virtual (venv)
+### Passos para faze-lo funcionar
+
+1. Criar ambiente virtual (venv)
 python -m venv venv
 
-3. Ativar o ambiente virtual
+2. Ativar o ambiente virtual
 Windows:
 .\venv\Scripts\activate
 
-4. Instalar dependências
+3. Instalar dependências
 pip install pymongo
 
 Ou, se existir o arquivo:
 
 pip install -r requirements.txt
 
-5. Executar o projeto
+4. Executar o projeto
 python app.py
 
 requirements.txt
